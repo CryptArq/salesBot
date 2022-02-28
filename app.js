@@ -34,7 +34,7 @@ function formatAndSendTweet(event) {
   }
   tweetText =
     tweetText +
-    `${assetName} was bought for ${formattedEthPrice}${
+    `${assetName} was just bought for ${formattedEthPrice}${
       ethers.constants.EtherSymbol
     } ($${Number(formattedUsdPrice).toFixed(2)}) #BAC ${openseaLink}`;
 
